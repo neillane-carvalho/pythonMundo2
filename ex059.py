@@ -19,7 +19,7 @@ while opcao != 5:
         if n1 > n2:
             print('Entre {} e {} o maior valor é {}'.format(n1, n2, n1))
         elif n1 < n2:
-            print('Entre {} e {} e {} o maior valor é {}'.format(n2, n1, n2))
+            print('Entre {} e {} o maior valor é {}'.format(n2, n1, n2))
     elif opcao == 4:
         n1 = int(input('Primeiro valor: '))
         n2 = int(input('Segundo valor: '))
